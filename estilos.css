@@ -1,9 +1,4 @@
-h1,
-h2,
-h3,
-h4,
-p,
-li {
+body {
   font-family: sans-serif;
   color: #444;
 }
@@ -44,15 +39,26 @@ li {
   font-size: 20px;
 }
 
-a {
-  font-size: 22px;
-  font-family: sans-serif;
-}
-
 footer p {
   font-size: 15px;
 }
+a:link {
+  font-size: 22px;
 
+  color: #1098ad;
+  text-decoration: none;
+}
+
+a:visited {
+  color: #1098ad;
+}
+a:hover {
+  color: orange;
+}
+a:active {
+  background-color: #1098ad;
+}
+/*LVHA*/
 #author {
   font-style: italic;
   font-size: 15px;
@@ -60,6 +66,7 @@ footer p {
 .related-post {
   list-style: none;
   background-color: #f7f7f7;
+  font-weight: bold;
 }
 
 .related-post p {
